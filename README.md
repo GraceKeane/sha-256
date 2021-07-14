@@ -1,25 +1,22 @@
-# Theory of Algorithms 2021 Workings
+<h2 align="center">
+    SHA-256 Calculator
+</h3>
 
-| Decimal | Hex | Binary |
-|---------|-----|--------|
-|       0 |   0 |   0000 |
-|       1 |   1 |   0001 |
-|       2 |   2 |   0010 |
-|       3 |   3 |   0011 |
-|       4 |   4 |   0100 |
-|       5 |   5 |   0101 |
-|       6 |   6 |   0110 |
-|       7 |   7 |   0111 |
-|       8 |   8 |   1000 |
-|       9 |   9 |   1001 |
-|      10 |   A |   1010 |
-|      11 |   B |   1011 |
-|      12 |   C |   1100 |
-|      13 |   D |   1101 |
-|      14 |   E |   1110 |
-|      15 |   F |   1111 |
+<h3 align="center">
+    A program written in C that calculates the SHA-256 of an input file
+</h4>
 
-|Decimal | Hex |   Binary |
-|--------|-----|----------|
-|    241 |  F1 | 11110001 |
-|    170 |  AA | 10101010 |
+## Command Line Installations
+<b>In windows terminal:</b> <br>
+Install make and gcc: ``` sudo apt install build-essential```<br>
+ZSH shell: ``` sudo apt install zsh``` <br>
+Nicer ZSH shell (optional): ``` sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" ```
+
+## Running the Program
+- In your command line terminal: ```git clone https://github.com/GraceKeane/sha-256.git```<br>
+- Navigate to the <b> \program\ </b> directory: ```cd sha-256```<br>
+- Compile the program: ```make```<br>
+- Execute options program: ```./sha256 abc.txt``` <br>
+- Run tests: ```make test``` <br>
+
+
