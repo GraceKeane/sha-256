@@ -19,4 +19,9 @@ Nicer ZSH shell (optional): ``` sh -c "$(curl -fsSL https://raw.github.com/ohmyz
 - Execute options program: ```./sha256 abc.txt``` <br>
 - Run tests: ```make test``` <br>
 
+## Program Output
+<p align="center">
+  <img src="./img/Output.PNG" width=650 heigh=500/>
+</p>
+
 
